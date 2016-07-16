@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Okra.UI.NavMenu</id>
+    <version>2.0.0</version>
+    <title>Okra.UI.NavMenu</title>
+    <authors>Andrew Wilkinson</authors>
+    <owners>Andrew Wilkinson</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Andy-Wilkinson/Okra.UI.NavMenu/master/LICENSE</licenseUrl>
+    <projectUrl>http://okraframework.github.io</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Okra App Framework - The Okra.UI.NavMenu package provides controls for implementing a navigation menu.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Okra Windows10 Win10 UWP UAP NavMenu</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Okra.UI.NavMenu.dll" target="lib\uap10.0\Okra.UI.NavMenu.dll"/>
+    <file src="bin\Release\Okra.UI.NavMenu.pri" target="lib\uap10.0\Okra.UI.NavMenu.pri" />
+    <file src="Properties\Okra.UI.NavMenu.rd.xml" target="lib\uap10.0\Okra.UI.NavMenu\Properties\Okra.UI.NavMenu.rd.xml" />
+  </files>
+</package>
+
