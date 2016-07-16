@@ -2,8 +2,8 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="/Themes/NavMenu.xaml"/>
-        <ResourceDictionary Source="/Themes/NavMenuItem.xaml"/>
-        <ResourceDictionary Source="/Themes/NavView.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenu.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenuItem.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavView.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
