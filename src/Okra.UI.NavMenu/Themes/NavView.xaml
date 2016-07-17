@@ -3,6 +3,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Okra.UI.NavMenu">
 
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <x:Double x:Key="BorderThemeThickness">0</x:Double>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="HighContrast">
+            <x:Double x:Key="BorderThemeThickness">2</x:Double>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <x:Double x:Key="BorderThemeThickness">0</x:Double>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
     <Style x:Key="SplitViewTogglePaneButtonStyle" TargetType="ToggleButton">
         <Setter Property="FontSize" Value="16" />
         <Setter Property="FontFamily" Value="{StaticResource SymbolThemeFontFamily}" />
