@@ -3,7 +3,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenu.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenuButton.xaml"/>
         <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenuItem.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavMenuSeparator.xaml"/>
         <ResourceDictionary Source="ms-appx:///Okra.UI.NavMenu/Themes/NavView.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
