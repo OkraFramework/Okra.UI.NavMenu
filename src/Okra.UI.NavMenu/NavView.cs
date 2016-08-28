@@ -8,6 +8,7 @@ namespace Okra.UI.NavMenu
         public static readonly DependencyProperty LargeWindowSnapPointProperty = DependencyProperty.Register("LargeWindowSnapPoint", typeof(double), typeof(NavView), new PropertyMetadata(1008.0));
         public static readonly DependencyProperty MediumWindowSnapPointProperty = DependencyProperty.Register("MediumWindowSnapPoint", typeof(double), typeof(NavView), new PropertyMetadata(641.0));
         public static readonly DependencyProperty MinWindowSnapPointProperty = DependencyProperty.Register("MinWindowSnapPoint", typeof(double), typeof(NavView), new PropertyMetadata(0.0));
+        public static readonly DependencyProperty OpenPaneLengthProperty = DependencyProperty.Register("OpenPaneLength", typeof(double), typeof(NavView), new PropertyMetadata(220.0));
         public static readonly DependencyProperty PaneProperty = DependencyProperty.Register("Pane", typeof(object), typeof(NavView), new PropertyMetadata(null));
 
         public NavView()
@@ -31,6 +32,12 @@ namespace Okra.UI.NavMenu
         {
             get { return (double)GetValue(MinWindowSnapPointProperty); }
             set { SetValue(MinWindowSnapPointProperty, value); }
+        }
+
+        public double OpenPaneLength
+        {
+            get { return (double)GetValue(OpenPaneLengthProperty); }
+            set { SetValue(OpenPaneLengthProperty, value); }
         }
 
         public object Pane

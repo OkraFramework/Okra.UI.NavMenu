@@ -166,7 +166,7 @@
                         <!-- Top-level navigation menu + app content -->
                         <SplitView x:Name="RootSplitView"
                                    DisplayMode="Inline"
-                                   OpenPaneLength="320"
+                                   OpenPaneLength="{TemplateBinding OpenPaneLength}"
                                    IsTabStop="False">
 
                             <SplitView.Pane>
